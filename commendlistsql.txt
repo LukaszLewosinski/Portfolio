@@ -1,0 +1,23 @@
+Select   
+where
+order by (nazwa kolumny) asc desc – kolejnosc po przecinku mozna kolejna nazwe kolumny
+distinct po select likwiduje duplikaty
+as zmiana mazwy jedno slowo razem 
+
+count () zlicza w nawiasie nazwa tabeli. Zlicza ile razy w kolumnie powtorzyla sie dana informacja
+max i min po selekt pokazuje najmniejsza wartosc najwiekszo wartosc
+
+sum sumuje wartosci liczbowe w tabeli
+avg w nawiasie nazwa kolumnyliczy srednia yak jak liczy sum po select
+group by
+
+
+= rowne
+<> nierowne
+>= <= mniejsze lub rowne 
+between and pomiedzy dwoma liczbami
+
+is null jest puste
+in (a,b,c) zawiera jeden z wymienionych zmiennych
+not, or and chyba nie trzeba tlumaczyc
+like '%adds%' zawiera
