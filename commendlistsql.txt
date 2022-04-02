@@ -1,5 +1,5 @@
-Select   
-where
+Select, where - brak komentarza     
+ 
 order by (nazwa kolumny) asc desc – kolejnosc po przecinku mozna kolejna nazwe kolumny
 distinct po select likwiduje duplikaty
 as zmiana mazwy jedno slowo razem 
