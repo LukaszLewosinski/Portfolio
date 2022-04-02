@@ -1,0 +1,11 @@
+git - wywolanie gita 
+status - informacje wewnatrz brancha
+branch - pokazuje jakie mamy branche i gdzie jestesmy
+checkout nazwa- przenosi nas do brancha lub commita
+add .- dodaje wszyatkie pliki 
+commit -m "tresc commita"- dodaje commita
+push -u origin nazwa brancha- pushuje do repozytorium
+branch m- nazwa- tworzy branch
+pull origin nazwa- pobiera zmiany
+log- info
+fetch- pobiera wszsytkei branche
