@@ -10,7 +10,7 @@ sum
 avg()
 
 order by (nazwa kolumny) asc desc – kolejnosc po przecinku mozna kolejna nazwe kolumny
-group by
+group by nazwa kolumny
 
 
 = rowne
@@ -25,5 +25,5 @@ like '%adds%' zawiera
 Fortmat Joim
 select from
 join tabela
- to *.* = *.*
+ on tabela.key tabela.key
 
