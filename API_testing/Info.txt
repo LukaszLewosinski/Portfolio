@@ -1,0 +1,23 @@
+API 
+Application Programming Interface
+Kontroluje wszystkie punkty dostepowe do aplikacji lub serwerow
+ściśle określony zestaw reguł i ich opisów, w jaki programy komputerowe komunikują się między sobą
+
+Web Service
+System software’owy zaprojektowany w celu umożliwienia interakcji 
+takich jak: wymiana danych, wywoływanie procedur pomiędzy komputerami w sieci.
+
+HTTP (ang. HyperText Transfer Protocol)
+XML (ang. eXtensible Markup Language) (xml, xml dtd, xml schema)
+JSON (ang. JavaScript Object Notation)
+SOAP (ang. Simple Object Access Protocol)
+REST (ang. Representational State Transfer)
+WSDL (ang. Web Services Description Language)
+
+
+
+Zasady REST
+1. (Jednostajny interfejs) Interfejs umożliwia ustandaryzowaną komunikację pomiędzy klientem a serwerem
+2. (Klient - Serwer) Aplikacja kliencka jest całkowicie odseparowana od aplikacji serwerowej, obie aplikacje rozwijać się niezależnie.
+3. (Bezstanowość) Architektura REST nie przetrzymuje żadnych informacji między zapytaniami.
+4. (Warstwowość) Klient nie powinien być w stanie powiedzieć, czy jest podłączony bezpośrednio do serwera, czy do pośrednika.

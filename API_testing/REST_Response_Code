@@ -1,0 +1,5 @@
+1XX- informacyjne
+200 – OK, czyli wszystko jest w porządku, zapytanie jest obsłużone
+3XX – przekierowanie
+4XX – błąd aplikacji spowodowany działaniem użytkownika
+5XX – blad serwera

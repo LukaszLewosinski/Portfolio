@@ -22,7 +22,7 @@ in (a,b,c) zawiera jeden z wymienionych zmiennych
 not, or and chyba nie trzeba tlumaczyc
 like '%adds%' zawiera
 
-Fortmat Joim
+Formmat Join
 select from
 join tabela
  on tabela.key tabela.key
