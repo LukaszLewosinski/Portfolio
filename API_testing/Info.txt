@@ -21,3 +21,6 @@ Zasady REST
 2. (Klient - Serwer) Aplikacja kliencka jest całkowicie odseparowana od aplikacji serwerowej, obie aplikacje rozwijać się niezależnie.
 3. (Bezstanowość) Architektura REST nie przetrzymuje żadnych informacji między zapytaniami.
 4. (Warstwowość) Klient nie powinien być w stanie powiedzieć, czy jest podłączony bezpośrednio do serwera, czy do pośrednika.
+
+Metody
+Endpoint

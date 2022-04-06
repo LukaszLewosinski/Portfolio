@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Informacja>
+  <O_mnie>
+    <Imie>Lukasz</Imie>
+    <Wiek>34</Wiek>
+  </O_mnie>
+  <Umiejetnosci>
+    <Motywacja>Jestem a raczej chcialbym byc poczatkujacym testerem. Posiadam zapal, kurs i certyfikat ISTQB. W chwilach wolnych doksztalcam sie.</Motywacja>
+    <znajomosc_programow>Postman, SoupUi itp</znajomosc_programow>
+  </Umiejetnosci>
+</Informacja>

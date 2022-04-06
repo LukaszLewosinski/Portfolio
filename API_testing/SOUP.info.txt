@@ -1,0 +1,25 @@
+Wiadomość SOAP ma strukturę XML i zawiera tagi:
+
+envelope zawiera treść wiadomości,
+header element opcjonalny, zawiera informacje nagłówkowe,
+body zawiera zapytanie i odpowiedź,
+fault zawiera informację o ewentualnym błędzie odpowiedzi.
+
+Przyklad
+<?xml version='1.0'?>
+<Envelope>
+ <Header>
+  <reference>uuid:093a2da1-q345-739r</reference>
+ </Header>
+ <Body>
+  <itinerary>
+   <departure>
+     <departing>New York</departing>
+     <arriving>Los Angeles</arriving>
+     <departureDate>2021-12-14</departureDate>
+     <departureTime>afternoon</departureTime>
+     <seatPreference>aisle</seatPreference>
+   </departure>
+  </itinerary>
+ </Body>
+</Envelope>
