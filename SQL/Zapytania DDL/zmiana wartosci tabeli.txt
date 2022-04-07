@@ -1,0 +1,8 @@
+Dane w tabeli zmieniamy za pomocą zapytania UPDATE:
+
+UPDATE table_name
+SET
+col_name_1 = "value1",
+col_name_2 = "value2",
+...
+WHERE col_name_3 = some_value;

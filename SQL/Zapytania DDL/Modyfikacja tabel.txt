@@ -1,0 +1,13 @@
+#Dodanie nowej kolumny:
+ALTER TABLE table_name ADD column_name datatype;
+ 
+#Usunięcie kolumny
+ALTER TABLE table_name DROP COLUMN column_name;
+ 
+#Zmiana typu danych trzymanych w kolumnie
+ALTER TABLE table_name MODIFY COLUMN column_name new_datatype;
+
+
+DESCRIBE  tabela opisuje strukture tabeli
+DROP TABLE table_name;
+DROP DATABASE db_name;

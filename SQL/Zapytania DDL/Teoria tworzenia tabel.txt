@@ -1,0 +1,41 @@
+CREATE TABLE users
+(
+  user_id int AUTO_INCREMENT,
+  user_name varchar(255),
+  user_email varchar(255) UNIQUE,
+  PRIMARY KEY(user_id)
+);
+
+CREATE TABLE table_name
+( 
+  nazwa_kolumny_1 typ_danych(size) 
+  [atrybuty],
+  nazwa_kolumny_2 typ_danych(size) 
+  [atrybuty],
+  nazwa_kolumny_3 typ_danych(size) 
+  [atrybuty],
+  ...
+);
+
+Pupularne atrybuty
+
+PRIMARY KEY – czyli klucz główny. Atrybut stosowany do wskazania, że ta kolumna będzie jednoznacznie identyfikowała każdy wpis.
+ Nie będzie 2 wierszy z identyczną wartością tej kolumny.
+ Zazwyczaj do stworzenia klucza głównego, używamy zmiennej typu INT z włączoną opcją AUTO_INCREMENT.
+
+ UNSIGNED – stosowany przy zmiennych liczbowych, oznacza, iż chcemy korzystać jedynie z zakresu liczb dodatnich
+  danego typu liczbowego co zwiększa jego zakres.
+ZEROFILL – stosowany przy zmiennych liczbowych. Powoduje dopełnienie liczby zerami poprzedzającymi.
+
+CHARACTER SET – stosowany przy napisach. Powoduje używanie odpowiedniego kodowania do napisów. Powinno się go 
+ustawiać dla każdej kolumny przechowującej tekst.
+
+BINARY – Używany przy zmiennych typu CHAR lub VARCHAR. Powoduje, że sortowanie będzie case-sensitive.
+
+DEFAULT – nastawia domyślną wartość wpisywaną w tę kolumnę, która zostanie wpisana do tabeli w przypadku nie podania
+ wartości danej kolumny.
+
+NULL / NOT NULL – pozwala (lub nie pozwala) na wprowadzanie pustych danych w tę kolumnę.
+
+AUTO_INCREMENT – stosowany przy zmiennych liczbowych. Powoduje, że wartość w tej kolumnie zwiększa 
+się o jeden przy każdym wpisie, nie ma konieczności podawania jej wartości, tabela automatycznie nada kolejną wartość.

@@ -1,0 +1,18 @@
+Dane do tabeli dodajemy za pomocą zapytania INSERT INTO
+
+Jeżeli po nazwie tabeli nie podamy nazw kolumn, dane będą wkładane w kolejne kolumny tabeli (zgodnie z jej definicją).
+
+Przyklad
+INSERT INTO Teachers VALUES (56, 'Johan OKon', 189);
+
+
+Lub jesli ilosc danych nie zgadza sie z iloscia kolumn uzywamy nastepujacego zapytania. 
+
+INSERT INTO table_name(columnName1, columnName2, columnName3, ...)
+VALUES (value1, value2, value3, ...);
+
+Przyklad
+
+
+INSERT INTO Students(name, surname, email, class_id)
+      VALUES ('Tomas', 'Swift', 'Franco.Lang51@yahoo.com', 7);

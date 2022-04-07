@@ -27,3 +27,4 @@ select from
 join tabela
  on tabela.key tabela.key
 
+// komentarze
