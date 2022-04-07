@@ -1,0 +1,71 @@
+Wszystko co powiniwn zzwierac Plan testow 
+ISO/IEC/IEEE 29119-3- norma 
+
+Skrocona sciaga Planu testow na dole jest jej bardziej rozbudowana forma
+1.Wstep
+2.Zakres testow (typy realizowane i te nierealizowane)
+3.Przedmioty testow
+4.kryteria zaliczenia/niezaliczenia testow
+5. kryteria wejscia wyjscia
+6. lista wymagan i funkcionalnosci do przetestowania
+7. srodowisko testowe
+8. Harmonogram testow
+9. raporty z bledow 
+10. lista narzedzi
+11. Zarzadzanie bledami/incydentami
+12. role i odpowiedzialnosci
+
+
+
+
+
+
+
+
+
+
+Strona tytułowa - powinna zawierać nazwę produktu, imię i nazwisko autora, nr wersji, identyfikator
+Metryka dokumentu - zawiera dane dotyczące Planu Testów (nazwę dokumentu, ID, streszczenie, nazwę projektu, właściciela dokumentu, dane osoby sporządzającej dokument, wersję, status, osobę zatwierdzającą, datę sporządzenia, etc.)
+Tabela z historią zmian dokumentu - zawiera dane o historii zmian wprowadzanych w dokumencie
+Lista załączników - lista dokumentów załączonych do Planu Testów (np. specyfikacja wymagań)
+Wykaz użytych skrótów, symboli i terminów - zawiera definicje skrótów, terminów i symboli użytych w Planie Testów
+
+
+1.1 Cel i zakres dokumentu - określa w jakim celu został stworzony Plan Testów i jego zawartość
+1.2 Oczekiwania - jakie oczekiwania zostaną spełnione względem projektu przez zespół testerski i jak zostanie to zaraportowane
+Przedmiot Testów
+2.1 Ogólna charakterystyka produktu - krótki opis oprogramowania, które jest przedmiotem testu
+2.2 Użytkownicy i cele produktu - kto będzie korzystał z oprogramowania i w jakim celu ono powstaje
+2.3 Elementy podlegające testowaniu - określenie, co będzie testowane i w jakiej wersji (aplikacja, specyfikacja wymagań, etc.)
+Zakres planowanych testów
+3.1 Funkcjonalności objęte zakresem testów - określa funkcjonalności, które zostaną przetestowane
+3.2 Funkcjonalności wyłączone z procesu testowego - określa, które funkcjonalności nie zostaną przetestowane i dlaczego
+Podejście do testów
+4.1 Poziom i typ testów - określa poziomy i typy testów, które zostaną wykonane
+4.2 Wykorzystane techniki projektowania testów oraz narzędzia - określa, jakie techniki testowania zostaną użyte i jakie narzędzia będą wspomagały testowanie
+4.3 Fazy testów - określa, które funkcjonalności zostaną przetestowane w danej fazie wytwarzania oprogramowania
+Kryteria
+5.1 Kryteria zaliczenia / niezaliczenia testu - określają, kiedy test uznamy za zakończone z wynikiem pozytywnym
+5.2 Warunki rozpoczęcia testów - określa warunki niezbędne do rozpoczęcia testów
+5.3 Warunki zakończenia testów - określa, kiedy możemy zakończyć test
+5.4 Kryteria zawieszenia - określa kiedy powinniśmy zawiesić proces testowy
+5.5 Kryteria wznowienia testów - określa, kiedy powinniśmy wznowić proces testowy po uprzednim zawieszeniu go
+Produkty procesu testowego - określa testalia, które powstaną podczas procesu testowego
+Czynności i zadania testowe - opisuje czynności testowe, które zostaną wykonane w podanej kolejności
+Środowisko testowe - określa, jakie środowisko będzie potrzebne do przeprowadzenia testów (software, hardware, przepustowość łącza)
+Role i odpowiedzialności, potrzeby szkoleniowe
+9.1 Podział obowiązków procesu testowego - określa, kto będzie w zespole testowym i jak zostaną podzielone obowiązki pomiędzy członków zespołu
+9.2 Potrzeby szkoleniowe - określa, jakie szkolenia są potrzebne w zespole testowym i dlaczego
+Harmonogram - zawiera harmonogram czynności procesu testowego (ujętych w punkcie 7)
+Ryzyka
+11.1 Ryzyka projektowe - określa, jakie ryzyka związane z projektem mogą wystąpić i wpłynąć na proces testowy
+11.2 Ryzyka produktowe - określa, jakie ryzyka związane z produktem mogą wystąpić i wpłynąć na proces testowy
+Zatwierdzenie planu - miejsce do podpisu dla osób zatwierdzających plan
+
+
+
+
+
+
+
+
