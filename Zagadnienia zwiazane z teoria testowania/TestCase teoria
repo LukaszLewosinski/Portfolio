@@ -1,0 +1,16 @@
+ID - dzięki niemu w łatwy sposób możemy zlokalizować dany przypadek testowy
+Tytuł - krótki opis tego co testuje dany przypadek
+Warunki początkowe (wstępne) - wszystkie warunki, które muszą zostać spełnione przed rozpoczęciem testu
+Kroki - instrukcje krok po kroku, co należy zrobić w danym przypadku testowym
+Oczekiwany rezultat - jaki powinien być rezultat wykonanych działań
+Przypadek testowy
+Przypadki testowe mogą zawierać wiele innych pól, takich jak:
+
+Środowisko - system operacyjny, przeglądarka, podzespoły komputera
+Dane testowe - jakie dane testowe zostaną użyte w przypadku testowym
+Opis - parozdaniowy opis, co dokładnie testuje dany przypadek testowy
+Kategoria (typ) - do jakiej kategorii należy przypadek testowy
+Priorytet - określa, jak ważna jest funkcjonalność, którą testujemy
+Autor - przydatne, jeżeli mamy pytanie o dany przypadek testowy
+Nr wersji przypadku - dzięki temu wiemy, na której wersji pracujemy
+Powiązanie z wymaganiem - pomaga w śledzeniu pokrycia wymagań

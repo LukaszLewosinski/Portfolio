@@ -21,9 +21,6 @@ Skrocona sciaga Planu testow na dole jest jej bardziej rozbudowana forma
 
 
 
-
-
-
 Strona tytułowa - powinna zawierać nazwę produktu, imię i nazwisko autora, nr wersji, identyfikator
 Metryka dokumentu - zawiera dane dotyczące Planu Testów (nazwę dokumentu, ID, streszczenie, nazwę projektu, właściciela dokumentu, dane osoby sporządzającej dokument, wersję, status, osobę zatwierdzającą, datę sporządzenia, etc.)
 Tabela z historią zmian dokumentu - zawiera dane o historii zmian wprowadzanych w dokumencie

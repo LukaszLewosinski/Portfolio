@@ -1,0 +1,38 @@
+
+ID - dzięki niemu w łatwy sposób możemy zlokalizować dane zgłoszenie.
+
+Tytuł - bardzo ważna i najtrudniejsza do stworzenia część zgłoszenia. Tytuł powinien nam mówić co konkretnie nie działa i gdzie 
+(w którym module). Aby podać lokalizację błędu możemy użyć na początku zgłoszenia nawiasów kwadratowych np. [Ustawienia]. 
+Należy pamiętać, że tytuł nie powinien być zbyt długi, ani zbyt ogólny.
+
+Środowisko - system operacyjny, przeglądarka, podzespoły komputera, rozdzielczość ekranu, itp.
+
+Wersja testowanej aplikacji - środowisko (np. deweloperskie, testerskie) i nr wersji aplikacji, na której został znaleziony błąd. 
+Jeżeli nie podamy konkretnej wersji oprogramowania mamy duże szanse, aby usłyszeć słynne "u mnie działa" od dewelopera.
+
+Priorytet - określa, jak szybko dane zgłoszenie powinno zostać naprawione oraz jak duży wpływ ma na działanie oprogramowania.
+
+Autor - najlepiej jest, gdy testy potwierdzające wykonuje ta sama osoba, która zgłosiła błąd, gdyż zajmie jej to najmniej czasu.
+ Dodatkowo, jeżeli deweloper będzie miał jakieś pytania dotyczące zgłoszenia, będzie wiedział do kogo ma się zwrócić po wyjaśnienie 
+ lub pomoc w reprodukcji błędu.
+
+Warunki wstępne - wszystkie warunki, które muszą zostać spełnione, aby móc zreprodukować błąd. Mogą to być akcje wykonane w programie 
+(np. użytkownik jest zalogowany jako mentor) lub działające w tle inne programy (np. firewall, antywirus, itp.).
+
+Kroki/Szczegółowy opis - instrukcje krok po kroku, co należy zrobić aby zreprodukować dany błąd. Jeżeli błąd występuje 
+tylko dla konkretnych danych testowych to powinniśmy je tu koniecznie zawrzeć.
+
+Rzeczywisty rezultat - jak zachowała się aplikacja. Należy tu opisać niepoprawne działanie funkcjonalności.
+
+Załączniki - wszystkie dodatkowe załączniki, które mogą pomóc w reprodukcji błędu, np. URL, screen, filmik, logi.
+
+Reprodukowalność - określa jak często udaje się odtworzyć błąd. Przed zarejestrowaniem błędu powinniśmy spróbować go chociaż raz
+ zreproduktować. 
+
+Jeżeli nam się nie uda należy wykonać więcej prób i określić jaka jest reprodukowalność błędu. Gdy uda nam się 3 razy na 10 prób
+ możemy ocenić reprodukowalność na 30%. Jeżeli nie określimy stopnia reprodukowalności, a deweloperowi nie uda się odtworzyć błędu 
+ za pierwszym razem, nasze zgłoszenie zostanie prawdopodobnie odrzucone, a my usłyszymy słynne "u mnie działa".
+Oczekiwany rezultat - spodziewany poprawny rezultat wykonanych kroków.
+
+Kategoria (typ) - możemy stworzyć własne kategorie błędów co pozwoli nam później na łatwe zidentyfikowanie obszarów, w których
+występuje największe zagęszczenie błędów.

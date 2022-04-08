@@ -1,0 +1,32 @@
+Strona tytułowa - powinna zawierać nazwę produktu, imię i nazwisko autora dokumentu, identyfikator.
+Spis treści
+
+Metryka dokumentu - zawiera nazwę testowanego produktu, wersję dokumentu, etap testów i moduł
+ (jeżeli testowaliśmy tylko wybrany moduł)
+
+Historia zmian dokumentu - zawiera dane o historii zmian wprowadzanych w dokumencie.
+
+Lista załączników - lista dokumentów załączonych do raportu (np. szczegółowy raport z wykonania wszystkich przypadków
+ testowych)
+
+Słownik pojęć i skrótów - zawiera definicje skrótów, terminów i symboli użytych w raporcie.
+
+Podsumowanie testów - zawiera krótką informację na temat typu wykonanych testów, harmonogramu, zespołu testerskiego i
+ znalezionych błędów.
+
+ Rekomendacja - zawiera rekomendację dotyczącą wydania oprogramowania. Rekomendacja powinna opierać się na warunkach 
+ zaliczenia testu i kryteriach wyjścia z Planu Testów.
+
+Kryteria wejścia - określa czy warunki niezbędne do rozpoczęcia testów zostały spełnione zgodnie z Planem Testów.
+
+Kryteria zakończenia - określa czy warunki zakończenia testów zostały spełnione zgodnie z Planem Testów.
+
+Środowisko testowe - dane dotyczące środowiska, na którym odbywały się testy (system operacyjny, przeglądarki, itp.).
+
+Zakres testów - opisuje co zostało przetestowanie i w jaki sposób.
+
+Harmonogram testów - podanie harmonogramu procesu testowego i opisania rozbieżności względem Planu Testów.
+
+Wyniki testów - wyniki wykonania przypadków testowych (wynik negatywny, pozytywny, zablokowany).
+
+Błędy - tabela z błędami znalezionymi podczas procesu testowego z podziałem na priorytet i status.
