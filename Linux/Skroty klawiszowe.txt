@@ -1,0 +1,10 @@
+ctrl alt t terminal
+
+
+
+
+ctrl + c przerwanie
+ctrl + d sygnal EOF
+ctrl + r pszeszukuje historie
+ctrl + z zatrzymanie
+ctrl + a przeniesienie kursora na poczatek linijki

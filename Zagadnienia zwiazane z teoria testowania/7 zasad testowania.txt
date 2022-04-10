@@ -1,0 +1,8 @@
+Zasady testowania (wg ISTQB):
+Testowanie ujawnia usterki.
+Testowanie gruntowne jest niemożliwe.
+Wczesne testowanie oszczędza czas i pieniądze.
+Kumulowanie się błędów .
+Paradoks pestycydów.
+Testowanie zależne od kontekstu.
+Przekonanie o braku błędów jest błędem.

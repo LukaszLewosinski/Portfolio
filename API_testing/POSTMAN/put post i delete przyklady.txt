@@ -1,0 +1,5 @@
+Headers 
+w polu key moge wysylac dodatkowe zmienne np.
+accept application/json by otrzymac info w json
+
+w polu body moge podac  info np. do logowania

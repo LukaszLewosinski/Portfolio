@@ -1,0 +1,28 @@
+Automatyznacja
+
+pm. wywolujesz postmana
+
+sprawdzanie statusu kodow
+pm.test("status code is 200", () => {
+pm.response.to.have.status(200);
+})
+
+responsy
+pm.test("should verify response - uuid", () => {
+    const aaa = pm.response.json();
+    console.log(aaa); 
+})
+
+pm.test("should verify response - uuid", () => {
+    const aaa = pm.response.json();
+    console.log(aaa.uuid); --mozna wyszczegolniac co chcemy wyciagnac
+})
+
+
+pm.test("should verify response - uuid", () => {
+    const aaa = pm.response.json();
+    console.log(aaa.uuid); 
+    pm.expect(aaa.uuid.length).to.be.greaterThan(10); -- tutaj mamly dlugosc 
+})
+
+
