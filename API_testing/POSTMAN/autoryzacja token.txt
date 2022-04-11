@@ -1,0 +1,11 @@
+if(pm.response.code===200) {
+    pm.environment.set("token", pm.response.json().token);
+}
+
+zadeklaruj na srodowisku zmienna np. token na ktora bedziesz sie powolywal
+pm response to nazwa tokenu w odpowiedzi a sama nazwa token nawiazuje do srodowiska gdzie ustalamy zmienna
+{{}} wywolanie zmiennej
+
+
+mozna dodac token do projekty lub do kazdego zapytania. jesli dodasz do projekty 
+pamietaj o zaznaczaniu przy autoryzacji INFERIT AUTORISATION PARENT by odwolac sie do rodzica zapytania
