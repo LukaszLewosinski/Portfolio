@@ -3,3 +3,6 @@
 3XX – przekierowanie
 4XX – błąd aplikacji spowodowany działaniem użytkownika
 5XX – blad serwera
+
+
+401 brak aytoryzacji
