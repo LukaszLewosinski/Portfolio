@@ -1,0 +1,26 @@
+w pre leci
+
+const losowe = Math.floor((Math.random()*100 +1));
+pm.globals.set("losowe", losowe);
+
+gdzie losowe to nazwa zmiennej
+
+w body trzeba zadeklarowac zmienna taka jak w pre
+
+----------------------------------------------------------------------------------------
+drugi sposob 
+w body mozna uzyc wbudowanego 
+
+przykald
+{
+"qty": {{$randomInt}},
+"price": 3000
+}
+
+sa tez inne warianty
+
+$randomBoolean true or false
+$randomFirstName
+$randomLastName
+$randomFullName
+$timestamp- kolejne cyfry 

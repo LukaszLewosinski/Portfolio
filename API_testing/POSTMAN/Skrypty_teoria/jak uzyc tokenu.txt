@@ -1,0 +1,19 @@
+Ustawiamy zmienna srodowiskowa 
+
+if(pm.response.code===200) {
+    pm.environment.set("token", pm.response.json().token);
+}
+token - w odpowiedzi dostajemy atrybut JSON moze sie nazywac inaczej w zaleznosci od API. trzeba podstawic poprawna wartosc
+z odpowiedzi 
+
+-----------------------------------------------------------------------------------------------------------------------------
+Pamietaj ze:
+{{}} wywolanie zmiennej
+
+mozna dodac token do projektu lub do kazdego zapytania. Jesli dodasz do projeku
+pamietaj o zaznaczaniu przy autoryzacji INFERIT AUTORISATION PARENT by odwolac sie do rodzica zapytania.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+ pm.environment.set("token", pm.response.json().token); -- tutaj ustawiamy globalna zmienna i mozemy ja zaciagnac z odpowiedzi 
+ ktora bedzie w json o nazwie w tym przypadku token ale nic nie stoi na przszkodzie by zaciagnac cos innego jak imie albo id

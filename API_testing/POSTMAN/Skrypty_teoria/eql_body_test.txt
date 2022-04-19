@@ -1,0 +1,11 @@
+
+Sprawdzamy czy w resposie jest dana fraza
+
+const response = pm.response.json() -- deklarujemy by odpowiedz byla w jsonie. "response" w tym przypadku to dowolna nazwa zmiennej
+
+
+pm.test("dowolna nazwa testu", function () {
+    pm.expect(response.xxx).to.eql("jakas wartosc");
+});
+
+gdzie xxx to nazwa atrybutu bez "". wazne by wpisac sciezke do tego atrybutu, np. xxx.xxx.xxx.

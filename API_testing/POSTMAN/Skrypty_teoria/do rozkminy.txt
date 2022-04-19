@@ -1,0 +1,12 @@
+
+responsy
+pm.test("should verify response - uuid", () => {
+    const aaa = pm.response.json();
+    console.log(aaa); 
+})
+
+pm.test("should verify response - uuid", () => {
+    const aaa = pm.response.json();
+    console.log(aaa.uuid); --mozna wyszczegolniac co chcemy wyciagnac
+})
+

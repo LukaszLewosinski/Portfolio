@@ -1,0 +1,8 @@
+
+pm.test("nazwa testu", () => {
+    const aaa = pm.response.json(); ---gdzie aaa to dowolna nazwa 
+    console.log(aaa); --- mozna ta linijke dopisac by miec info w logu ale nie trzeba
+    pm.expect(aaa.xxx.xxx.length).to.be.greaterThan(wartosc liczby np 5); 
+})
+
+gdzie xxx to dokladna sciezka atrybutu podana bez "". 

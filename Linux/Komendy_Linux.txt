@@ -1,7 +1,5 @@
 history – pokazuje listę używanych komend,
 !! – wykonuje ostatnią komendę,
-!-3 – wykonuje trzecią komendę od końca z
-listy,
+!-3 – wykonuje trzecią komendę od końca z listy,
 !5 - wykonuje piątą komendę z listy,
-!grep – wywołuje ostatnią komendę
-zaczynającą się od grep
+!grep – wywołuje ostatnią komendę zaczynającą się od grep

@@ -1,0 +1,6 @@
+sprawdzanie statusu kodow
+pm.test("Wpisz nazwe testu", () => {
+pm.response.to.have.status(200);
+})
+
+sprawdzamy czy odpowiedz ma konkretny 
