@@ -1,0 +1,59 @@
+help/system property info o wszsytkich proerty 
+
+
+wywolywanie
+${#Nazwamiejscazkadzaciagam#nazwawlasnaproperty}
+
+nazwa miesca to:
+Project       -  ${#Project#PropertyName}
+TestSuite   -  ${#TestSuite#PropertyName}
+TestCase   -  ${#TestCase#PropertyName}
+TestStep    -  ${TestStepName#PropertyName}
+
+System   -    ${#System#PropertyName}
+Env        -     ${#Env#PropertyName}
+Global    -     ${#Global#PropertyName} 
+
+
+Notes
+
+// Get and Set Property
+
+//Project
+testRunner.testCase.testSuite.project.getPropertyValue("Name")
+testRunner.testCase.testSuite.project.setPropertyValue("Name","I am in Project")
+
+//TestSuite
+testRunner.testCase.testSuite.getPropertyValue("Name")
+testRunner.testCase.testSuite.setPropertyValue("Name","I am in TestSuite")
+
+//TestCase
+testRunner.testCase.getPropertyValue("Name")
+testRunner.testCase.setPropertyValue("Name","I am in TestCase")
+
+//TestStep
+testRunner.testCase.getTestStepByName("CountryCodes").getPropertyValue("Name")
+testRunner.testCase.getTestStepByName("CountryCodes").setPropertyValue("Name","I am in Test Step")
+
+//Global
+com.eviware.soapui.SoapUI.globalProperties.getPropertyValue( "Name")
+com.eviware.soapui.SoapUI.globalProperties.setPropertyValue( "Name","I am in Global Prop" )
+
+
+// Add Property
+testRunner.testCase.testSuite.project.addProperty("DOB")
+
+// Remove property
+//Project
+testRunner.testCase.testSuite.project.removeProperty("Name");
+//TestSuite
+testRunner.testCase.testSuite.removeProperty("Name")
+
+// Loop through properties
+
+testRunner.testCase.properties.each
+{
+ key,value -
+ log.info (testRunner.testCase.getPropertyValue(key))
+ //log.info (key+" - "+value)
+}

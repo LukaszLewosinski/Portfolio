@@ -1,0 +1,7 @@
+aby dodac groovy screpts nalezy wybrac teststep i dodac do niego groovy script 
+
+log.info "informacja" - wyswietla info w logu
+
+def name = context.expand(tutaj podajemy cala wartosc propertys wazne musza byc w '') definiujemy zmienna w tym przypadku name 
+
+log.info ("jakas tresc"+name); i wykorzystujemy zmienna

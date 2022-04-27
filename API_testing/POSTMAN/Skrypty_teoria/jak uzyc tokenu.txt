@@ -4,7 +4,7 @@ if(pm.response.code===200) {
     pm.environment.set("token", pm.response.json().token);
 }
 token - w odpowiedzi dostajemy atrybut JSON moze sie nazywac inaczej w zaleznosci od API. trzeba podstawic poprawna wartosc
-z odpowiedzi 
+z odpowiedzi wazne by pamietac ze bez "" oraz dokladna sciezke zapisujemy: xxx.xxx.xxx.
 
 -----------------------------------------------------------------------------------------------------------------------------
 Pamietaj ze:
