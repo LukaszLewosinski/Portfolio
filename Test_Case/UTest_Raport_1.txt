@@ -1,0 +1,15 @@
+ACTION PERFORMED
+1. Open https://www.ae.com/us/en
+2. At the bottom of the page, click on "$USD"
+3. Select Australia from the list
+4. Click on "Shop Australia Site"
+5. On the right side of page, clicks on "Feedback" button
+6. Select one star
+7. click on "Select an element on the page" button below
+
+EXPECTED RESULT
+This "Select an element on the page" buttonshould add page elements
+
+ACTUAL RESULT
+The button "Select an element on the page" does nothing
+
