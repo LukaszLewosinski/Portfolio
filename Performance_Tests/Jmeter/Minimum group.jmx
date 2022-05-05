@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.3">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Zestaw testow przypadkowej strony www" enabled="false">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Zestaw testow przypadkowej strony www" enabled="true">
       <stringProp name="TestPlan.comments">Uzywam funkcji ktore umiem zastosowac na przypadkowej stronie www</stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>

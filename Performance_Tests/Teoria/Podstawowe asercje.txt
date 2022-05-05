@@ -1,0 +1,12 @@
+Response Assertion
+tutaj mozemy sprawdzic np. konkretne kody odpowiedzi np. 200
+
+Duration Assertion 
+inaczej Latency, opoznienie
+
+Size Assertion
+
+HTML Assertion- zapisuje bledy do pliku, ustwa treashold na jakas liczbe np.10 czy 100
+write report to file, tworzymy jakis txt
+
+JSON Assertion i XML
