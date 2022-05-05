@@ -1,0 +1,23 @@
+Windows 11 - Feedback card - Missing Content information: "optional"
+
+Priority 
+Low
+
+ENVIRONMENTS 
+Windows 11 Home 21H2
+Chrome version 98.0.4758.102 (Official Build) (64-bit)
+
+ACTION PERFORMED
+1. Open https://www.ae.com/us/en
+2. At the bottom of the page, click on "Feedback" button
+3. Click on "Store Experience"
+4. Click "Submit"
+
+EXPECTED RESULT
+because question "On a scale from 0-10, how likely are you to recommend to a friend
+ or family member?" is optional, shoud be information about it like in rest of optional questions.
+
+ ACTUAL RESULT
+Question: "On a scale from 0-10, how likely are you to recommend to a friend or family member?" is optional.
+Missing information about it.
+

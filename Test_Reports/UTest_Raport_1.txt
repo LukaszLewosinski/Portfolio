@@ -1,3 +1,12 @@
+Windows 11 - Feedback card - The button "Select an element on the page" dont work
+
+Priority 
+Low
+
+ENVIRONMENTS 
+Windows 11 Home 21H2
+Chrome version 98.0.4758.102 (Official Build) (64-bit)
+
 ACTION PERFORMED
 1. Open https://www.ae.com/us/en
 2. At the bottom of the page, click on "$USD"
