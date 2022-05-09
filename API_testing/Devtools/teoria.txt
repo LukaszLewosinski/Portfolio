@@ -1,0 +1,15 @@
+czyszczenie danych: Aplication/storage/ Clear side data
+Storage: mozna sobie podejrzec info co strona zapisala w pamieci przegladarki
+
+
+Network/throttling= zmniejszenie jakosci lacza
+
+control L czyszczenie
+
+Fetch XHR- to sa zazwyczaj zapytania
+
+
+zwracac uwage na TTFB (Waterfall) time to first byte- jak szybko na backendzie serwwr zwraca dane
+disable cache- zaznaczamy by nie cachowac
+
+

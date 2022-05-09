@@ -1,0 +1,31 @@
+Windows 11 - Create Account card - Fields "FIRST NAME" and "LAST NAME" accepts incorrect characters
+
+
+Priority 
+Low
+
+Type
+Funcional 
+
+
+ENVIRONMENTS 
+Windows 11 Home 21H2
+Chrome version 98.0.4758.102 (Official Build) (64-bit)
+
+ACTION PERFORMED
+1. Open http://us.puma.com
+2. Click on "Account" button on right/top side of page
+3. Click on "REGISTER HERE"
+4. In "First Name" field type: "."
+4. In "Last Name" field type: "."
+5 In "Email" field type any correct email
+6.In "Password" field type any valid password
+7. Click on "REGISTER" button
+
+EXPECTED RESULT
+Only valid letters and characters can be entered in the fields "First Name" and "Last Name".
+You should see the message:
+"You need to have a valid First Name or Last name"
+
+ACTUAL RESULT
+In both fields i can eneter any symbols, including "space button" at the beginning or at the end of the words.

@@ -1,0 +1,20 @@
+GET /pl/ HTTP/2
+
+GET - metoda
+/pl/ - ścieżka do zasoby
+HTTP/2 - wersja protokołu
+
+Host: coderslab.pl
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+ 
+ Linijka zapytania (request line)
+
+Nagłówek (header) wartości opcjonalne zależne od systemu
+
+Pusta linijka (empty line)
+
+Treść zapytania (message body) we wskazanym przykładzie odwołujemy się do konkretnej ścieżki bez treści zapytania

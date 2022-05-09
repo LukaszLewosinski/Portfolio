@@ -1,0 +1,28 @@
+200 – OK, czyli wszystko jest w porządku, zapytanie jest obsłużone
+302 – przekierowanie
+403> – brak dostępu
+404 – nie znaleziono (stąd liczba 404 często pojawia się na stronach z informacją, że wpisany adres nie istnieje)
+503 – usługa niedostępna – serwer nie jest w stanie w danej chwili zrealizować zapytania klienta ze względu na przeciążenie
+
+
+
+HTTP/2 200 OK
+server: nginx
+date: Wed, 23 Sep 2020 12:28:31 GMT
+content-type: text/html; charset=utf-8
+x-powered-by: Express
+etag: W/"14b4-z4m7eWUNUKCys7O5tEvWh9Rvd2w"
+vary: Accept-Encoding
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+
+Linijka statusu (status line)
+
+Nagłówek (header) wartości opcjonalne zależne od systemu
+
+Linijka statusu (status line)
+
+Nagłówek (header) wartości opcjonalne zależne od systemu
+
+
+

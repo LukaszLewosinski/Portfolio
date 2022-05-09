@@ -1,1 +1,9 @@
-sdffds
+Plan< Add<Non test elements< Test scrriptrecorder
+
+Add logic controller< recording controller
+
+
+dodaj crt z folderu bin Jmetera do cdrtyfikatow z przegladarki
+wlacz proxy na kompie manualnie i podaj dane te z recordera
+
+zacznij nagrywac, dodaj sciezke do nagrywania: Target Controller

@@ -1,0 +1,3 @@
+devtools/Lighthouse
+
+Pamietaj by zapisywac raporty: rozne formaty: potem mozna porownywac 

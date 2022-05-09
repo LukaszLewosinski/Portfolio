@@ -1,3 +1,19 @@
+Protokół internetowy
+
+Jest to zbiór ścisłych reguł i kroków postępowania, które są automatycznie wykonywane przez urządzenia w sieci komputerowej
+w celu nawiązania połączenia i wymiany danych.
+
+Do najpopularniejszych protokół internetowych zaliczyć możemy:
+
+FTP (port 21)
+HTTP (port 80 lub 8080)
+HTTPS (port 443)
+POP3 (port 110)
+SMTP (port 25)
+SSH (port 22)
+Telnet (port 23)
+
+
 API 
 Application Programming Interface
 Kontroluje wszystkie punkty dostepowe do aplikacji lub serwerow
@@ -8,6 +24,7 @@ System software’owy zaprojektowany w celu umożliwienia interakcji
 takich jak: wymiana danych, wywoływanie procedur pomiędzy komputerami w sieci.
 
 HTTP (ang. HyperText Transfer Protocol)
+URL Oznacza  ujednolicony format adresowania (określania lokalizacji) zasobów stosowany w Internecie i w sieciach lokalnych
 XML (ang. eXtensible Markup Language) (xml, xml dtd, xml schema)
 JSON (ang. JavaScript Object Notation)
 SOAP (ang. Simple Object Access Protocol)

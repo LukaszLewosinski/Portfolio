@@ -1,0 +1,3 @@
+.../more tools/rendering/ symulacja problemow ze wzrokiem
+
+/paint refreshing- info czy nie za czesto element sie przelodowywuje    
