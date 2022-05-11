@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "99bd48f6-2b8a-4eb8-9c2f-5bf58a5815fc",
+		"name": "Testy strony Bookero",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "logowanie",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							" if(pm.response.code===200) {\r",
+							"         pm.environment.set(\"token\", pm.response.json().token);\r",
+							"         }\r",
+							" pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 400ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\":\"lukaszlewosinskitester@gmail.com\",\"password\":\"Przykladowehaslo\"}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://internal.bookero.pl/login"
+			},
+			"response": []
+		},
+		{
+			"name": "test niepoprawnego logowania. Przypadkowym haslem",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 401\", function () {\r",
+							"    pm.response.to.have.status(401);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\":\"lukaszlewosinskitester@gmail.com\",\"password\":\"{{$randomFirstName}}{{$randomInt}}\"}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://internal.bookero.pl/login"
+			},
+			"response": []
+		},
+		{
+			"name": "Tworzenie rezerwacji",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 400ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Test {{$randomFirstName}}\",\r\n\"published\":\"true\",\r\n\"published_only_admin\":false,\r\n\"required\":false,\r\n\"type\":\"text\",\r\n\"extra_price\":false,\r\n\"first_selected\":true,\r\n\"services\":[]}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://internal.bookero.pl/panel/parameters/save-parameter"
+			},
+			"response": []
+		},
+		{
+			"name": "Zmiana ustawien rezerwacji",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"service_name\":\"{{$randomFullName}}\",\r\n    \"show_workers\":false,\r\n    \"time_increaser\":30,\r\n    \"start_calendar_by\":1,\r\n    \"reservation_overtake\":0,\"max_reservation_overtake\":0,\r\n    \"hours_to_cancel\":0,\"hours_to_cancel_text\":null,\r\n    \"require_mail\":true,\"require_phone\":false,\r\n    \"hide_phone_field\":false,\r\n    \"phone_prefix\":\"fefrerfert\",\r\n    \"people_required\":true,\r\n    \"periodicity\":false,\r\n    \"attendances_list\":false,\r\n    \"auto_attendances\":false,\r\n    \"waiting_list\":false,\r\n    \"auto_waiting_list\":false,\r\n    \"customers_based_on\":\"email\",\r\n    \"block_user_reservation\":true\r\n    ,\"discounts\":false,\r\n    \"settings\":\"reservations\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://internal.bookero.pl/panel/settings/settings-save"
+			},
+			"response": []
+		},
+		{
+			"name": "pobieranie danych o wszystkich rezerwacjach",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Your test name\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.parameters).to.eql(4969);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "https://internal.bookero.pl/panel/parameters/get-parameters"
+			},
+			"response": []
+		},
+		{
+			"name": "|Usuwanie rezerwacji",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":7024}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://internal.bookero.pl/panel/parameters/remove-parameter"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "{{token}}"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
