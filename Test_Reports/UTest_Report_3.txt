@@ -1,0 +1,17 @@
+Windows 11 - Boys and Girls Clubs of Ame card - Incorrect blue square on the bottom
+
+Low
+
+ENVIRONMENTS 
+Windows 11 Home 21H2
+Chrome version 98.0.4758.102 (Official Build) (64-bit)
+
+1. Open https://www.firestonecompleteautocare.com/
+2. Go on the bottom of page and click on: "Boys and Girls Clubs of America" button
+3. Go on the bottom of page
+
+EXPECTED RESULT
+At the bottom on the right side this place should look like in other pages.
+
+ACTUAL RESULT
+At the bottom on the right side is incorect blue squere.

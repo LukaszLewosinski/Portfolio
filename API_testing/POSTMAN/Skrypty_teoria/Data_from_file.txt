@@ -1,0 +1,7 @@
+By powolac sie na zmienne ktore zawarte sa w zewnetrznym pliku nalezy uzyc skladni: 
+(data.nazwa_zmiennej)
+
+
+
+Uzywanie |Postman
+newman run lokaliza i nazwa cjakolekcji -d lokalizacja i nazwa plikow (jesli ta sama mozna pominac lokalizajce) 

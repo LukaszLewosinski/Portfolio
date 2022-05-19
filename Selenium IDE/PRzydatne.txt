@@ -1,0 +1,5 @@
+Komendy:
+
+run Nazwa testu- odpala dany test. Mozna jej uzywac wewnatrz innego testu
+
+debugger- robi to samo co komenda stop 

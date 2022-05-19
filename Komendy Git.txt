@@ -9,3 +9,164 @@ branch m- nazwa- tworzy branch
 pull origin nazwa- pobiera zmiany
 log- info
 fetch- pobiera wszsytkei branche
+
+
+
+
+CREATE:
+
+--CLONE AN EXISTING REPOSITORY--
+# git clone ssh://user@domain.com/repo.git
+
+--CREATE A NEW LOCAL REPOSITORY--
+# git init
+
+
+
+
+
+
+
+LOCAL CHANGES:
+
+--CHANGED FILES IN YOUR WORKING DIRECTORY--		
+# git status
+
+--CHANGES TO TRACKED FILES--
+# git diff
+
+--ADD ALL CURRENT CHANGES TO THE NEXT COMMIT--
+# git add .
+
+--ADD SOME CHANGES IN <FILE> TO THE NEXT COMMIT--
+# git add -p <file>
+
+--COMMIT ALL LOCAL CHANGES IN TRACKED FILE--
+# git commit -a
+
+--COMMIT PREVIOUSLY STAGED CHANGES--
+# git commit
+
+--CHANGE THE LAST COMMIT-- (don't amend published commits)
+# git commit -amend
+
+COMMIT HISTORY:
+
+--SHOW ALL COMMITS , STARTING WITH NEWEST--
+# git log
+
+--SHOW CHANGES OVER TIME FOR  SPECIFIC FILE--
+# git log -p <file>N
+
+--WHO CHANGED, WHAT AND WHEN IN <FILE>
+# git blame <file>
+
+
+
+
+
+
+BRANCHES AND TAGS:
+
+--LIST ALL EXISTING BRANCHES--
+# git branch -av
+
+--SWITCH HEAD BRANCH--
+# git checkout <branch>
+
+--CREATE A NEW BRANCH BASED ON YOUR CURRENT HEAD--
+# git branch <new-branch>
+
+--CREATE A NEW TRACKING BRANCH BASED ON A REMOTE BRANCH--
+# git checkout --track <remote/branch>
+
+--DELETE A LOCAL BRANCH--
+# git branch -d <branch>
+
+--MARK THE CURRENT COMMIT WITH A TAG--
+# git tag <tag-name>
+
+
+
+
+
+
+UPDATE & PUBLISH:
+
+--LIST ALL CURRENTLY CONFIGURED REMOTES--
+# git remote -v
+
+--SHOW INFORMATION ABOUT A REMOTE--
+# git remote show <remote>
+
+--ADD NEW REMOTE REPOSITORY , NAMED <REMOTE>
+# git remote add <shortname> <url>
+
+--DOWNLOAD ALL CHANGES FROM <REMOTE> BUT DON'T INTEGRATE INTO HEAD
+# git fetch <remote>
+
+--DOWNLOAD CHANGES AND DIRECTLY MERGE/INTEGRATE INTO HEAD
+# git pull <remote> <branch>
+
+--PUBLISH LOCAL CHANGES ON A REMOTE
+# git push <remote> <branch>
+
+--DELETE A BRANCH ON THE REMOTE--
+# git branch -dr <remote/branch>
+
+--PUBLISH YOUR TAGS
+# git push --tags
+
+
+
+
+
+
+MERGE & REBASE:
+
+--MERGE <BRANCH> INTO YOUR CURRENT HEAD--
+# git merge <branch>
+
+--REBASE YOU CURRENT HEAD ONTO <BRANCH>--DON'T REBASE BUBLISHED COMMITS!
+# git rebase <branch>
+
+--ABORT A REBASE--
+# git rebase --abort
+
+--CONTINUE A REBASE AFTER RESOLVING CONFLICTS--
+# git rebase --continue
+
+--USE YOUR CONFIGURED MERGE TOOL TO SOLVE CONFLICTS--
+# git mergetool
+
+--USE YOUR EDITOR TO MANUALLY SOLVE CONFLICTS AND (AFTER RESOLVING)MARK FILE AS RESOLVED--
+# git add <resolved-file>
+# git rm <resolved-file>
+
+
+
+
+
+
+UNDO:
+
+--DISCARD ALL LOCAL CHANGES IN YOUR WORKING DIRECTORY--
+# git reset --hard HEAD
+
+--DISCARD LOCAL CHANGES IN A SPECIFIC FILE--
+# git checkout HEAD <file>
+
+--REVERT A COMMIT (BY PRODUCING A NEW COMMIT WITH CONTRARY CHANGES)--
+# git revert <commit>
+
+--RESET YOUR HEAD POINTE TO A PREVIOUS COMMIT ...AND DISCARD ALL CHANGES SINCE THEN--
+# git reset --hard <commit>
+
+-- ...AND PRESERVE ALL CHANGES AS UNSTAGED CHANGES--
+# git reset <commit>
+
+--AND PRESERVE UNCOMMITED LOCAL CHANGES--
+# git reset --keep <commit>
+
+
+

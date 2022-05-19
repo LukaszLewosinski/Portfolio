@@ -1,0 +1,12 @@
+
+//pm.variables.get();
+//pm.variables.set();
+
+//pm.globals.get();
+//pm.globals.set();
+
+//pm.environment.get();
+//pm.environment.set();
+
+
+("xxxx","XXX")

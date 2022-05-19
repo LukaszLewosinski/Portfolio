@@ -1,0 +1,17 @@
+Windows 11 - Product Detail Page- Photos on the product page do not show up
+
+Medium
+
+ENVIRONMENTS 
+Windows 11 Home 21H2
+Chrome version 98.0.4758.102 (Official Build) (64-bit)
+
+1. Open https://www.worldmarket.com
+2. In field "Discover Something" (on top right side of the page) type: "Dark Green Velvet Leighton Uph"
+3. Enter
+
+EXPECTED RESULT
+Photos on page are visible.
+
+ACTUAL RESULT
+Photos on the product page do not show up.
