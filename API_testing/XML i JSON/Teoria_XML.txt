@@ -1,0 +1,69 @@
+XML (ang: eXtensible Markup Language) 
+Inaczej rozszeżony język znaczników. Jest to sposób zapisu danych w taki sposób by rożne jezyki programowania,
+ programy, serwisy, strony internetowe itp. mogly w latwy sposób wymieniac miedzy soba te dane. Zwrócie uwage ze rozne programy, 
+ czy strony internetowe korzystaja z roznych tecvhnologii, do tego dochodza rozne srodowiska, takie jak komputery, telefony czy 
+ nawet insteligente domy (IOF). Kazda taka jednosta moze oczyeiscie dzialac samodzielnie w ramach swojej stróktory ale 
+ w dzisiejszych czasach wazne jest by takie jednostki mogly wymieniac ze soba informacje tak by rozumialy co do siebie wysyłaja. 
+ w twn sposób zunifikowana wymiane danych i zamknieto ja w klamry pewnych zasad ktore beda potrafily zrozumiec calkowicie rozne jezyki programowania.
+ Jenym z takich rozwiazan (a jest ich kilka) jest wlasnie XML. 
+ M bo Markup, inaczej tag. Podobnie jak w HTML zapisujemy go tak: </>. X czyli  eXtensible, to oznacza ze taki te w przeciwienstwie
+ do HTML mozemy sami definiowac i nadawac im dowolna nazwe (prawie z kilkoma wyjatkami). 
+
+ Teraz nauczmy sie struktory xml:
+
+Na samym poczatku powinnismy zamiescic tzw. XML Prolog ktory jest informacja ktorej wersji XML uzywami 
+i jakie kogowanie znakow stosujemy. nie trzeba sie uczyc tego zapisu, wiekszosc programow sama generuje ten fragment.
+mozna tez uzyc strony internetowej ktora dokona walidacji naszej skladni i poprawi ja w razie koniecznosci dopisujac niezbny fragment. 
+
+ Kazdy zbor danych w XML musi miec tzn element ROdzic lub Root, to tak w którym zawieraja sie inne taki.
+ w naszym przypadku niech to bedzie tag o nazwie Rodzina: 
+ <rodzina>
+ </rodzina> 
+ Pamietajcie ze absolutnie kazdy otwarty tag musi miec swoje zamkniecie. 
+
+ w tagach (ktore sami tworzymi i nazywami) mozemy zawierac dane, np:
+ <imie>Adam</imie>
+ ale tez mozemy zawierac atrybuty i ich wartosci w znacznikach
+ Znajomy wiek="18">Adam </Znajomy>
+
+ Pamietaj ze wielkosc liter ma znaczenie w przypadku tagow i atrybutow. 
+
+ By skádnia byla poprawna pamitaj o kilku zasadach: 
+ Każdy element musi zaczynać się znacznikiem początku elementu oraz kończyć identycznym znacznikiem końca elementu, wyjątek stanowią elementy puste,
+Informacje, które zawiera element, muszą być zapisane pomiędzy znacznikiem początku i końca elementu,
+Może zawierać dokładnie jeden element główny,
+Nazwy elementów mogą zawierać znaki (litery a-z, A-Z oraz cyfry 0-9) oraz znaki interpunkcyjne: podkreślenie, myślnik i kropkę. Nie mogą zaczynać się od myślnika, kropki ani cyfry.
+Walidacja dokumentów XML
+Najprostszym sposobem na sprawdzenie poprawności składniowej jest otworzenie pliku xml za pomocą przeglądarki (np. Firefox).
+
+Pamietaj
+Mozesz umieszczac komentarze w pliku XML wykorzystujac skladnie:
+<!--       tresc komentatza   -->
+Komwntarze te nie beda traktowane jako czesc danych ktore bedzie wykorzystywal konkretny program. 
+
+
+
+
+Kolejnym waznym aspektem sa prefiksy
+zapisujemy je: xmlns:prefix="URI" do strony w ktorej wystepuja dane xml
+prefix to np likera g lub x lub cokolwiek innego co bedziemy uzuwac
+
+prefiksy zapisujemy w jako atrybut danego atrybutu np.
+<x:tabela xmlns:x="jakas strona www">
+
+</x:tabela>
+
+Lub mozna tez zrobic tak, by w wartosci Rodzica czy tez Roota zawrzec atrubut ktory zdefiniuje pochodzenie danych 
+atrybutow:
+<root xmlns:x="www"
+    xmlns:y= "wWw">
+
+    Pamietaj tez ze ze nie zawsze musisz uzywac prfefiksow, zobacz przyklad:
+    
+    <nazwa_ateybutu xmlns: "strona www">
+    <a>aaa</a>
+    <b>b</b>
+    </table>
+
+    W powyzszym przykladnie nie trzeba definiowac prefiksow poniewaz atrybut definiuuje wszystkie inne tagi w sojej zawartosci. 
+    
