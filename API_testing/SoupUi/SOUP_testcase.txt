@@ -1,0 +1,12 @@
+Prawy przycisk myszy na na wsdl i wybrac "Generate Test sute"
+
+Pamietaj ze mozesz odpalac wszystkie testy w tym samym momencje zaznaczajac opcje Parallel. znajduje sie ona tuz przy 
+klawisz RUn all testcases
+
+
+
+Przy generowaniu scenariuszy testowych pamietaj ze masz dwie opcje
+
+One test case for each operation- dodaje po jednym test case dla kazdego zapytania
+lub
+single test case- Tworzy tylko jeden test Case ale z wieloma Steps.  

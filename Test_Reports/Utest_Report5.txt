@@ -1,0 +1,21 @@
+Windows 11 - Awards Page- Button "Buy now" moves to 404 error page
+
+Priority 
+mid
+
+ENVIRONMENTS 
+Windows 11 Home 21H2
+Chrome version 98.0.4758.102 (Official Build) (64-bit)
+
+ACTION PERFORMED
+1. Open https://www.delonghi.com/en-us
+2. Scroll down till footer
+3. Click on hyperlink: "Awards"
+4. Click on "Buy now" button (Button is below "Nespresso Lattissima One Latte, 
+Cappuccino and Espresso Machine by De'Longhi, Warm Slate - EN500BW" hyperlink)
+
+EXPECTED RESULT
+Button moves to detail product page
+
+ACTUAL RESULT
+Button moves to error 404 page

@@ -1,5 +1,9 @@
 help/system property info o wszsytkich proerty 
 
+Pamietaj ze Zmienne mozesz tworzyc na kazdym poziomie Project/testSuite?testcase/TestStep
+Ale!!
+Test step tworzysz inaczej, prawy przycisk myszy na test case i dodaj property 
+
 
 wywolywanie
 ${#Nazwamiejscazkadzaciagam#nazwawlasnaproperty}
@@ -8,7 +12,7 @@ nazwa miesca to:
 Project       -  ${#Project#PropertyName}
 TestSuite   -  ${#TestSuite#PropertyName}
 TestCase   -  ${#TestCase#PropertyName}
-TestStep    -  ${TestStepName#PropertyName}
+TestStep    -  ${TestStepName(Domyslnie Property)#PropertyName}
 
 System   -    ${#System#PropertyName}
 Env        -     ${#Env#PropertyName}
