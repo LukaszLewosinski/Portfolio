@@ -4,3 +4,19 @@ log.info "informacja" - wyswietla info w logu
  tutaj podajemy cala wartosc propertys wazne musza byc w '') definiujemy zmienna w tym przypadku name 
 
 log.info ("jakas tresc"+name); i wykorzystujemy zmienna
+
+
+log.info "dowolny tekst"
+
+
+
+  // komendy
+  
+  /*
+   *iele linijek
+   *dadadasdas
+   *sdasd
+ */
+
+//context
+//Textrunner

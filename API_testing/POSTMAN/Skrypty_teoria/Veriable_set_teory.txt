@@ -10,3 +10,9 @@
 
 
 ("xxxx","XXX")
+
+
+
+Jak uzywac zmiennej:
+
+{{nazwa zmiennej}}
